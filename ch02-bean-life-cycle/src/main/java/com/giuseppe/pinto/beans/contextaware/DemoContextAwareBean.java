@@ -5,12 +5,12 @@ import org.springframework.beans.BeansException;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.ApplicationContextAware;
 
-public class ContextAwareBean implements ApplicationContextAware
+public class DemoContextAwareBean implements ApplicationContextAware
 {
 
   private ApplicationContext context;
 
-  public ContextAwareBean()
+  public DemoContextAwareBean()
   {
     System.out.println("context aware bean created");
   }

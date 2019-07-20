@@ -19,7 +19,11 @@
   </bean>
 
   <bean id="contextAwareBeanId"
-        class="com.giuseppe.pinto.beans.contextaware.ContextAwareBean">
+        class="com.giuseppe.pinto.beans.contextaware.DemoContextAwareBean">
+  </bean>
+
+  <bean id="beanPostProcessorId"
+        class="com.giuseppe.pinto.beans.postprocessor.DemoBeanPostProcessor">
   </bean>
 
 </beans>
