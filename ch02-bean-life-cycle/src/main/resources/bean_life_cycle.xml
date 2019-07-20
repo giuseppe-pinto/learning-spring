@@ -18,4 +18,8 @@
         class="com.giuseppe.pinto.beans.disposablebean.DemoDisposableBean">
   </bean>
 
+  <bean id="contextAwareBeanId"
+        class="com.giuseppe.pinto.beans.contextaware.ContextAwareBean">
+  </bean>
+
 </beans>
