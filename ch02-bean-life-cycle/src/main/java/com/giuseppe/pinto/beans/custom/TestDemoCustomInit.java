@@ -1,6 +1,5 @@
-package com.giuseppe.pinto.beans;
+package com.giuseppe.pinto.beans.custom;
 
-import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.AbstractApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 

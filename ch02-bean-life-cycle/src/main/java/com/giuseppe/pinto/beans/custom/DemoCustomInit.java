@@ -1,4 +1,4 @@
-package com.giuseppe.pinto.beans;
+package com.giuseppe.pinto.beans.custom;
 
 public class DemoCustomInit
 {
