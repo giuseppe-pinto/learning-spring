@@ -1,4 +1,4 @@
-package com.giuseppe.pinto.beans.initializingbean;
+package com.giuseppe.pinto.beans.initializing;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;

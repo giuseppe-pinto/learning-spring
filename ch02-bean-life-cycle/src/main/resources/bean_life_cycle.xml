@@ -11,11 +11,11 @@
   </bean>
 
   <bean id="demoInitializingBeanId"
-        class="com.giuseppe.pinto.beans.initializingbean.DemoInitializingBean">
+        class="com.giuseppe.pinto.beans.initializing.DemoInitializingBean">
   </bean>
 
   <bean id="disposableBeanId"
-        class="com.giuseppe.pinto.beans.disposablebean.DemoDisposableBean">
+        class="com.giuseppe.pinto.beans.disposable.DemoDisposableBean">
   </bean>
 
   <bean id="contextAwareBeanId"

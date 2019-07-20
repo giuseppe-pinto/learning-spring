@@ -1,4 +1,4 @@
-package com.giuseppe.pinto.beans.initializingbean;
+package com.giuseppe.pinto.beans.initializing;
 
 import org.springframework.beans.factory.InitializingBean;
 

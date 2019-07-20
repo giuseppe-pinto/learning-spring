@@ -1,4 +1,4 @@
-package com.giuseppe.pinto.beans.disposablebean;
+package com.giuseppe.pinto.beans.disposable;
 
 import org.springframework.beans.factory.DisposableBean;
 

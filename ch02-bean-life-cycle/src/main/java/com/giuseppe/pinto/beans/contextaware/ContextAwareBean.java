@@ -1,6 +1,6 @@
 package com.giuseppe.pinto.beans.contextaware;
 
-import com.giuseppe.pinto.beans.initializingbean.DemoInitializingBean;
+import com.giuseppe.pinto.beans.initializing.DemoInitializingBean;
 import org.springframework.beans.BeansException;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.ApplicationContextAware;

@@ -1,4 +1,4 @@
-package com.giuseppe.pinto.beans.disposablebean;
+package com.giuseppe.pinto.beans.disposable;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.AbstractApplicationContext;
