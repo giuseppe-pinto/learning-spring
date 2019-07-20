@@ -1,11 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="777fac05-a4e6-4586-8fe5-5e06a5990141" name="Default Changelist" comment="" />
+    <list default="true" id="777fac05-a4e6-4586-8fe5-5e06a5990141" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ch02-bean-life-cycle/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch02-bean-life-cycle/src/main/java/com/giuseppe/pinto/beans/DemoCustomInit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch02-bean-life-cycle/src/main/java/com/giuseppe/pinto/beans/TestDemoCustomInit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch02-bean-life-cycle/src/main/resources/bean_life_cycle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch01-container-initializer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ch01-container-initializer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch01-container-initializer/target/classes/com/giuseppe/pinto/applicationContext/TestClasspathApplicationContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/ch01-container-initializer/target/classes/com/giuseppe/pinto/applicationContext/TestClasspathApplicationContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch01-container-initializer/target/classes/com/giuseppe/pinto/beanFactory/TestBeanFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/ch01-container-initializer/target/classes/com/giuseppe/pinto/beanFactory/TestBeanFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/learning-spring/target/" />
     <ignored path="$PROJECT_DIR$/ch01-container-initializer/target/" />
+    <ignored path="$PROJECT_DIR$/ch02-bean-life-cycle/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,19 +30,43 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/ch02-bean-life-cycle/src/main/java/com/giuseppe/pinto/beans/DemoCustomInit.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="332">
+              <caret line="30" column="3" lean-forward="true" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="3" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ch01-container-initializer/pom.xml">
+        <entry file="file://$PROJECT_DIR$/ch02-bean-life-cycle/src/main/java/com/giuseppe/pinto/beans/TestDemoCustomInit.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="46" column="38" lean-forward="true" selection-start-line="46" selection-start-column="38" selection-end-line="46" selection-end-column="38" />
+            <state relative-caret-position="132">
+              <caret line="13" column="21" lean-forward="true" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ch01-container-initializer/src/main/java/com/giuseppe/pinto/applicationcontext/TestClasspathApplicationContext.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ch02-bean-life-cycle/src/main/resources/bean_life_cycle.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -40,9 +76,19 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JUnit4 Test Class" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>destr</find>
+      <find>regis</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -57,8 +103,14 @@
         <option value="$PROJECT_DIR$/src/main/resources/another_beans_classpath.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/giuseppe/pinto/applicationContext/TestClasspathApplicationContext.java" />
         <option value="$PROJECT_DIR$/learning-spring/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/ch01-container-initializer/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/ch02-bean-life-cycle/src/test/java/com/giuseppe/pinto/beans/TestDemoCustomInit.java" />
+        <option value="$PROJECT_DIR$/ch02-bean-life-cycle/src/test/java/com/giuseppe/pinto/beans/TestDemoCustomInitTest.java" />
+        <option value="$PROJECT_DIR$/ch02-bean-life-cycle/src/test/java/com/giuseppe/pinto/beans/DemoCustomInitTest.java" />
+        <option value="$PROJECT_DIR$/ch02-bean-life-cycle/src/main/resources/bean_life_cycle.xml" />
+        <option value="$PROJECT_DIR$/ch02-bean-life-cycle/src/main/java/com/giuseppe/pinto/beans/DemoCustomInit.java" />
+        <option value="$PROJECT_DIR$/ch02-bean-life-cycle/src/main/java/com/giuseppe/pinto/beans/TestDemoCustomInit.java" />
       </list>
     </option>
   </component>
@@ -98,6 +150,90 @@
               <item name="ch01-container-initializer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="learning-spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learning-spring" type="462c0819:PsiDirectoryNode" />
+              <item name="ch01-container-initializer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learning-spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learning-spring" type="462c0819:PsiDirectoryNode" />
+              <item name="ch01-container-initializer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learning-spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learning-spring" type="462c0819:PsiDirectoryNode" />
+              <item name="ch01-container-initializer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pinto" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learning-spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learning-spring" type="462c0819:PsiDirectoryNode" />
+              <item name="ch01-container-initializer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pinto" type="462c0819:PsiDirectoryNode" />
+              <item name="applicationcontext" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learning-spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learning-spring" type="462c0819:PsiDirectoryNode" />
+              <item name="ch01-container-initializer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learning-spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learning-spring" type="462c0819:PsiDirectoryNode" />
+              <item name="ch02-bean-life-cycle" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learning-spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learning-spring" type="462c0819:PsiDirectoryNode" />
+              <item name="ch02-bean-life-cycle" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learning-spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learning-spring" type="462c0819:PsiDirectoryNode" />
+              <item name="ch02-bean-life-cycle" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learning-spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learning-spring" type="462c0819:PsiDirectoryNode" />
+              <item name="ch02-bean-life-cycle" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learning-spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learning-spring" type="462c0819:PsiDirectoryNode" />
+              <item name="ch02-bean-life-cycle" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="beans" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learning-spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learning-spring" type="462c0819:PsiDirectoryNode" />
+              <item name="ch02-bean-life-cycle" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -112,6 +248,8 @@
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549639183347" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -121,7 +259,16 @@
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.giuseppe.pinto.beans" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -140,7 +287,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestClasspathApplicationContext">
+  <component name="RunManager" selected="Application.TestDemoCustomInit">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -161,6 +308,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestClasspathApplicationContext (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.giuseppe.pinto.applicationcontext.TestClasspathApplicationContext" />
+      <module name="ch01-container-initializer" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.giuseppe.pinto.applicationcontext.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestClasspathApplicationContext" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pinto.applicationContext.TestClasspathApplicationContext" />
       <module name="learning-spring" />
@@ -168,6 +329,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="pinto.applicationContext.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestDemoCustomInit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.giuseppe.pinto.beans.TestDemoCustomInit" />
+      <module name="ch02-bean-life-cycle" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.giuseppe.pinto.beans.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -255,6 +430,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestDemoCustomInit" />
+        <item itemvalue="Application.TestClasspathApplicationContext (1)" />
         <item itemvalue="Application.TestClasspathApplicationContext" />
         <item itemvalue="Application.TestBeanFactory" />
       </list>
@@ -271,12 +448,27 @@
       <option name="presentableId" value="Default" />
       <updated>1563622449973</updated>
       <workItem from="1563622451130" duration="1785000" />
-      <workItem from="1563631689792" duration="643000" />
+      <workItem from="1563631689792" duration="3218000" />
     </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <created>1563632558634</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1563632558634</updated>
+    </task>
+    <task id="LOCAL-00002" summary="refactoring">
+      <created>1563632933046</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1563632933046</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2428000" />
+    <option name="totallyTimeSpent" value="5003000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="797" extended-state="0" />
@@ -297,7 +489,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32991204" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32991204" />
       <window_info anchor="bottom" id="Docker" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32991204" />
@@ -317,6 +509,11 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit" />
+    <MESSAGE value="refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactoring" />
   </component>
   <component name="editorHistoryManager">
     <entry file="uml://SPRING/appContextPath=/Users/gpinto/IdeaProjects/ch01-container-initializer/src/main/resources/beans_classpath.xml;appContextName=beans_classpath">
@@ -338,20 +535,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/learning-spring/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/ch01-container-initializer/src/main/java/com/giuseppe/pinto/beanFactory/TestBeanFactory.java">
+    <entry file="file://$PROJECT_DIR$/ch01-container-initializer/src/main/java/com/giuseppe/pinto/beanfactory/TestBeanFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="15" column="56" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="56" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ch01-container-initializer/src/main/resources/another_beans_classpath.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -377,34 +567,113 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ch01-container-initializer/src/main/resources/beans_classpath.xml">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="8" selection-end-line="5" selection-end-column="8" />
+        <state relative-caret-position="57">
+          <caret line="3" column="18" lean-forward="true" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ch01-container-initializer/src/main/java/com/giuseppe/pinto/applicationContext/TestClasspathApplicationContext.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="16" column="43" lean-forward="true" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
+        <state relative-caret-position="988">
+          <caret line="52" column="17" selection-start-line="52" selection-start-column="17" selection-end-line="52" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch02-bean-life-cycle/src/test/java/com/giuseppe/pinto/beans/TestDemoCustomInit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch02-bean-life-cycle/src/test/java/com/giuseppe/pinto/beans/DemoCustomInitTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/ch02-bean-life-cycle/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="296">
+          <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ch01-container-initializer/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="46" column="38" lean-forward="true" selection-start-line="46" selection-start-column="38" selection-end-line="46" selection-end-column="38" />
+        <state relative-caret-position="285">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch01-container-initializer/src/main/resources/another_beans_classpath.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch02-bean-life-cycle/ch02-bean-life-cycle.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch01-container-initializer/src/main/resources/beans_classpath.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch01-container-initializer/src/main/java/com/giuseppe/pinto/applicationcontext/TestClasspathApplicationContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch02-bean-life-cycle/src/main/resources/bean_life_cycle.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch02-bean-life-cycle/src/main/java/com/giuseppe/pinto/beans/DemoCustomInit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="30" column="3" lean-forward="true" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.8.RELEASE/spring-context-5.1.8.RELEASE.jar!/org/springframework/context/ApplicationContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.8.RELEASE/spring-context-5.1.8.RELEASE.jar!/org/springframework/context/support/AbstractApplicationContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="513" column="36" lean-forward="true" selection-start-line="513" selection-start-column="36" selection-end-line="513" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch02-bean-life-cycle/src/main/java/com/giuseppe/pinto/beans/TestDemoCustomInit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="13" column="21" lean-forward="true" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -460,7 +729,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>ch01-container-initializer</last-edited>
+          <last-edited>ch02-bean-life-cycle</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
