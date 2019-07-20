@@ -14,4 +14,8 @@
         class="com.giuseppe.pinto.beans.initializingbean.DemoInitializingBean">
   </bean>
 
+  <bean id="disposableBeanId"
+        class="com.giuseppe.pinto.beans.disposablebean.DemoDisposableBean">
+  </bean>
+
 </beans>
