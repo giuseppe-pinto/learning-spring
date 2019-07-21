@@ -8,6 +8,13 @@
         class="com.giuseppe.pinto.beans.Car">
   </bean>
 
+  <bean id="factoryOfCarId"
+        class="com.giuseppe.pinto.beans.factory.CarFactory">
+  </bean>
+
+  <bean id="carFromFactoryId"
+        factory-bean="factoryOfCarId"
+        factory-method="buildCar">
+  </bean>
+
 </beans>
-
-

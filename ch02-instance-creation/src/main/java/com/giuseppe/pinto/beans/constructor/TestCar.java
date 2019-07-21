@@ -1,5 +1,6 @@
-package com.giuseppe.pinto.beans;
+package com.giuseppe.pinto.beans.constructor;
 
+import com.giuseppe.pinto.beans.Car;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
