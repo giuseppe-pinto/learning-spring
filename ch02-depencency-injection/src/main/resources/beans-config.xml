@@ -32,14 +32,14 @@
   </bean>
 
   <bean id="addressId"
-        class="com.giuseppe.pinto.beans.xmlbased.reference.Address">
+        class="com.giuseppe.pinto.beans.xmlbased.reference.domain.Address">
     <property name="buildNumber" value="3"/>
     <property name="cityName" value="Naples"/>
     <property name="pinCode" value="1233" />
   </bean>
 
   <bean id="customerId"
-        class="com.giuseppe.pinto.beans.xmlbased.reference.Customer">
+        class="com.giuseppe.pinto.beans.xmlbased.reference.domain.Customer">
     <property name="id" value="1" />
     <property name="name" value="Giuseppe"/>
     <property name="address" ref="addressId"/>

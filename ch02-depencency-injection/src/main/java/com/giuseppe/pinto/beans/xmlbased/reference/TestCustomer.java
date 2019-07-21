@@ -1,5 +1,6 @@
 package com.giuseppe.pinto.beans.xmlbased.reference;
 
+import com.giuseppe.pinto.beans.xmlbased.reference.domain.Customer;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
