@@ -1,18 +1,17 @@
-package com.giuseppe.pinto.beans.xmlbased.constructorinjection;
+package com.giuseppe.pinto.beans.xmlbasedwithnamespace;
 
 import com.giuseppe.pinto.beans.Car;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-public class TestConstructorDIWithAmbiguities
+public class TestCarWithNameSpace
 {
-  private static final String CONFIG_LOCATION = "beans-config-xmlbased.xml";
+  private static final String CONFIG_LOCATION = "beans-config-xmlbased-namespace.xml";
 
   public static void main(String[] args)
   {
     ApplicationContext context = new ClassPathXmlApplicationContext(CONFIG_LOCATION);
-    String id = "constructorInjectionCarWithAmbiguitiesId";
-    Car car = (Car) context.getBean(id);
+    Car car = (Car) context.getBean("carId");
     System.out.println(car.show());
   }
 }

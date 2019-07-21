@@ -1,4 +1,4 @@
-package com.giuseppe.pinto.beans.xmlbased;
+package com.giuseppe.pinto.beans;
 
 public class Car
 {

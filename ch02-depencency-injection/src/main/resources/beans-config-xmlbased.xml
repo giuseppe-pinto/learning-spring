@@ -5,7 +5,7 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
   <bean id="setterInjectionCarId"
-        class="com.giuseppe.pinto.beans.xmlbased.Car">
+        class="com.giuseppe.pinto.beans.Car">
     <property name="chassisNumber" value="chassisNumber"/>
     <property name="average" value="70"/>
     <property name="color" value="red"/>
@@ -14,7 +14,7 @@
   </bean>
 
   <bean id="constructorInjectionCarId"
-        class="com.giuseppe.pinto.beans.xmlbased.Car">
+        class="com.giuseppe.pinto.beans.Car">
     <constructor-arg value="eng100"/>
     <constructor-arg value="green"/>
     <constructor-arg value="gpl"/>
@@ -23,7 +23,7 @@
   </bean>
 
   <bean id="constructorInjectionCarWithAmbiguitiesId"
-        class="com.giuseppe.pinto.beans.xmlbased.Car">
+        class="com.giuseppe.pinto.beans.Car">
     <constructor-arg value="eng100" index="0"/>
     <constructor-arg value="green" index="1"/>
     <constructor-arg value="20000" index="3"/>
