@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+  <bean id="carId"
+        class="com.giuseppe.pinto.beans.xmlbased.setterinjection.Car">
+    <property name="chassisNumber" value="chassisNumber"/>
+    <property name="average" value="70"/>
+    <property name="color" value="red"/>
+    <property name="fuelType" value="diesel"/>
+    <property name="price" value="30000"/>
+  </bean>
+
+</beans>

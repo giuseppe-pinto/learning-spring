@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="ch02-depencency-injection" />
         <module name="ch01-container-initializer" />
         <module name="ch02-instance-creation" />
         <module name="ch02-bean-life-cycle" />

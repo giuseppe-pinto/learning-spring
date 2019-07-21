@@ -1,4 +1,4 @@
-package com.giuseppe.pinto.applicationcontext;
+package com.giuseppe.pinto.beans.applicationcontext;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;

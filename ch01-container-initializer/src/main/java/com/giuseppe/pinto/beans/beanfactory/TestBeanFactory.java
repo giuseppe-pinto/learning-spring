@@ -1,4 +1,4 @@
-package com.giuseppe.pinto.beanfactory;
+package com.giuseppe.pinto.beans.beanfactory;
 
 import org.springframework.beans.factory.BeanFactory;
 import org.springframework.beans.factory.xml.XmlBeanFactory;

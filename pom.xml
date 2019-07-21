@@ -12,6 +12,7 @@
     <module>ch01-container-initializer</module>
     <module>ch02-bean-life-cycle</module>
     <module>ch02-instance-creation</module>
+    <module>ch02-depencency-injection</module>
   </modules>
 
 
