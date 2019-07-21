@@ -31,4 +31,19 @@
     <constructor-arg value="60" index="4" />
   </bean>
 
+  <bean id="addressId"
+        class="com.giuseppe.pinto.beans.xmlbased.reference.Address">
+    <property name="buildNumber" value="3"/>
+    <property name="cityName" value="Naples"/>
+    <property name="pinCode" value="1233" />
+  </bean>
+
+  <bean id="customerId"
+        class="com.giuseppe.pinto.beans.xmlbased.reference.Customer">
+    <property name="id" value="1" />
+    <property name="name" value="Giuseppe"/>
+    <property name="address" ref="addressId"/>
+  </bean>
+
+
 </beans>
