@@ -1,2 +1,2 @@
-/Users/gpinto/IdeaProjects/learning-spring/ch01-container-initializer/src/main/java/com/giuseppe/pinto/applicationcontext/TestClasspathApplicationContext.java
-/Users/gpinto/IdeaProjects/learning-spring/ch01-container-initializer/src/main/java/com/giuseppe/pinto/beanfactory/TestBeanFactory.java
+/Users/gpinto/IdeaProjects/learning-spring/ch01-container-initializer/src/main/java/com/giuseppe/pinto/beans/beanfactory/TestBeanFactory.java
+/Users/gpinto/IdeaProjects/learning-spring/ch01-container-initializer/src/main/java/com/giuseppe/pinto/beans/applicationcontext/TestClasspathApplicationContext.java

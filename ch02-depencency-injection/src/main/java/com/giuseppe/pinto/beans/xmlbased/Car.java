@@ -1,10 +1,24 @@
-package com.giuseppe.pinto.beans.xmlbased.setterinjection;
+package com.giuseppe.pinto.beans.xmlbased;
 
 public class Car
 {
   private String chassisNumber, color, fuelType;
   private long price;
   private double average;
+
+
+  public Car(String chassisNumber, String color, String fuelType, long price, double average)
+  {
+    this.chassisNumber = chassisNumber;
+    this.color = color;
+    this.fuelType = fuelType;
+    this.price = price;
+    this.average = average;
+  }
+
+  public Car()
+  {
+  }
 
   public String getChassisNumber()
   {

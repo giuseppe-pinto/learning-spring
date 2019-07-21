@@ -1,2 +1,2 @@
-com/giuseppe/pinto/beanfactory/TestBeanFactory.class
-com/giuseppe/pinto/applicationcontext/TestClasspathApplicationContext.class
+com/giuseppe/pinto/beans/beanfactory/TestBeanFactory.class
+com/giuseppe/pinto/beans/applicationcontext/TestClasspathApplicationContext.class

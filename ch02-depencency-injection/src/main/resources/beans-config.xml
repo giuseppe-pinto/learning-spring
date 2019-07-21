@@ -4,13 +4,31 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-  <bean id="carId"
-        class="com.giuseppe.pinto.beans.xmlbased.setterinjection.Car">
+  <bean id="setterInjectionCarId"
+        class="com.giuseppe.pinto.beans.xmlbased.Car">
     <property name="chassisNumber" value="chassisNumber"/>
     <property name="average" value="70"/>
     <property name="color" value="red"/>
     <property name="fuelType" value="diesel"/>
     <property name="price" value="30000"/>
+  </bean>
+
+  <bean id="constructorInjectionCarId"
+        class="com.giuseppe.pinto.beans.xmlbased.Car">
+    <constructor-arg value="eng100"/>
+    <constructor-arg value="green"/>
+    <constructor-arg value="gpl"/>
+    <constructor-arg value="20000"/>
+    <constructor-arg value="60"/>
+  </bean>
+
+  <bean id="constructorInjectionCarWithAmbiguitiesId"
+        class="com.giuseppe.pinto.beans.xmlbased.Car">
+    <constructor-arg value="eng100" index="0"/>
+    <constructor-arg value="green" index="1"/>
+    <constructor-arg value="20000" index="3"/>
+    <constructor-arg value="gpl" index="2"/>
+    <constructor-arg value="60" index="4" />
   </bean>
 
 </beans>
