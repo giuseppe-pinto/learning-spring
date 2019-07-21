@@ -1,4 +1,4 @@
-package com.giuseppe.pinto.beans;
+package com.giuseppe.pinto.beans.domain;
 
 public class Car
 {

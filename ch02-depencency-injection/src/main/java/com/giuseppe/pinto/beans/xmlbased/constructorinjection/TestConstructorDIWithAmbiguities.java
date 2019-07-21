@@ -1,6 +1,6 @@
 package com.giuseppe.pinto.beans.xmlbased.constructorinjection;
 
-import com.giuseppe.pinto.beans.Car;
+import com.giuseppe.pinto.beans.domain.Car;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 

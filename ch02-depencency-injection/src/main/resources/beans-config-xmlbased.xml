@@ -5,7 +5,7 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
   <bean id="setterInjectionCarId"
-        class="com.giuseppe.pinto.beans.Car">
+        class="com.giuseppe.pinto.beans.domain.Car">
     <property name="chassisNumber" value="chassisNumber"/>
     <property name="average" value="70"/>
     <property name="color" value="red"/>
@@ -14,7 +14,7 @@
   </bean>
 
   <bean id="constructorInjectionCarId"
-        class="com.giuseppe.pinto.beans.Car">
+        class="com.giuseppe.pinto.beans.domain.Car">
     <constructor-arg value="eng100"/>
     <constructor-arg value="green"/>
     <constructor-arg value="gpl"/>
@@ -23,7 +23,7 @@
   </bean>
 
   <bean id="constructorInjectionCarWithAmbiguitiesId"
-        class="com.giuseppe.pinto.beans.Car">
+        class="com.giuseppe.pinto.beans.domain.Car">
     <constructor-arg value="eng100" index="0"/>
     <constructor-arg value="green" index="1"/>
     <constructor-arg value="20000" index="3"/>
@@ -32,14 +32,14 @@
   </bean>
 
   <bean id="addressId"
-        class="com.giuseppe.pinto.beans.xmlbased.reference.domain.Address">
+        class="com.giuseppe.pinto.beans.domain.Address">
     <property name="buildNumber" value="3"/>
     <property name="cityName" value="Naples"/>
     <property name="pinCode" value="1233" />
   </bean>
 
   <bean id="customerId"
-        class="com.giuseppe.pinto.beans.xmlbased.reference.domain.Customer">
+        class="com.giuseppe.pinto.beans.domain.Customer">
     <property name="id" value="1" />
     <property name="name" value="Giuseppe"/>
     <property name="address" ref="addressId"/>

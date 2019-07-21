@@ -1,10 +1,10 @@
-package com.giuseppe.pinto.beans.xmlbased.reference;
+package com.giuseppe.pinto.beans.xmlbased.setterinjection;
 
-import com.giuseppe.pinto.beans.xmlbased.reference.domain.Customer;
+import com.giuseppe.pinto.beans.domain.Customer;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-public class TestCustomer
+public class TestCustomerWithReferenceObject
 {
   private static final String CONFIG_LOCATION = "beans-config-xmlbased.xml";
 

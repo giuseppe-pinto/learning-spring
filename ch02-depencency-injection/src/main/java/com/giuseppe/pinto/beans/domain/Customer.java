@@ -1,4 +1,4 @@
-package com.giuseppe.pinto.beans.xmlbased.reference.domain;
+package com.giuseppe.pinto.beans.domain;
 
 public class Customer
 {
