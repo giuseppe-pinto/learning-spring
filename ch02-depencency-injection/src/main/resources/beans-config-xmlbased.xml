@@ -41,7 +41,6 @@
   <bean id="customerId"
         class="com.giuseppe.pinto.beans.domain.Customer">
     <property name="id" value="1" />
-    <property name="name" value="Giuseppe"/>
     <property name="address" ref="addressId"/>
   </bean>
 

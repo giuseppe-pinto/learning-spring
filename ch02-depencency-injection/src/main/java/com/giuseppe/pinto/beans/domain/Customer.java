@@ -7,6 +7,16 @@ public class Customer
   private int id;
   private Address address;
 
+  public Customer(String name, int id, Address address)
+  {
+    this.name = name;
+    this.id = id;
+    this.address = address;
+  }
+
+  public Customer()
+  {
+  }
 
   public String getName()
   {

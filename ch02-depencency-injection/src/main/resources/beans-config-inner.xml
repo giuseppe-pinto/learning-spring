@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+  <bean id="customerIdWithInnerBeanSetterInj"
+        class="com.giuseppe.pinto.beans.domain.Customer">
+    <property name="id" value="1" />
+    <property name="name" value="Giuseppe"/>
+    <property name="address">
+      <bean class="com.giuseppe.pinto.beans.domain.Address">
+        <property name="buildNumber" value="3"/>
+        <property name="cityName" value="Naples"/>
+        <property name="pinCode" value="1233" />
+      </bean>
+    </property>
+  </bean>
+
+  <bean id="customerIdWithInnerBeanConstructorInj"
+        class="com.giuseppe.pinto.beans.domain.Customer">
+    <constructor-arg value="giuseppe"/>
+    <constructor-arg value="122"/>
+    <constructor-arg>
+      <bean class="com.giuseppe.pinto.beans.domain.Address">
+        <property name="pinCode" value="1212"/>
+        <property name="cityName" value="Pune"/>
+        <property name="buildNumber" value="3"/>
+      </bean>
+    </constructor-arg>
+  </bean>
+
+</beans>
