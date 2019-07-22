@@ -13,6 +13,7 @@
     <module>ch02-bean-life-cycle</module>
     <module>ch02-instance-creation</module>
     <module>ch02-depencency-injection</module>
+    <module>ch02-inheritance</module>
   </modules>
 
 
