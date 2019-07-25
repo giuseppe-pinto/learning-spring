@@ -14,6 +14,7 @@
     <module>ch02-instance-creation</module>
     <module>ch02-depencency-injection</module>
     <module>ch02-inheritance</module>
+    <module>ch02-DI-collection</module>
   </modules>
 
 

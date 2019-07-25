@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+  <bean id="book1"
+        class="com.giuseppe.pinto.beans.Book">
+    <property name="isbn" value="729329"/>
+    <property name="name" value="Java 8"/>
+    <property name="price" value="120"/>
+    <property name="publication" value="mondadori"/>
+  </bean>
+
+  <bean id="book2"
+        class="com.giuseppe.pinto.beans.Book">
+    <constructor-arg value="4039439"/>
+    <constructor-arg value="Spring 5"/>
+    <constructor-arg value="23"/>
+    <constructor-arg value="packt"/>
+  </bean>
+
+  <bean id="book3"
+        class="com.giuseppe.pinto.beans.Book"
+        p:isbn="341212"
+        p:name="Kubernetes"
+        p:price="35" p:publication="Einaudi">
+  </bean>
+
+  <bean id="librarySet"
+        class="com.giuseppe.pinto.beans.LibrarySet">
+    <property name="books">
+      <set>
+        <ref bean="book1"/>
+        <ref bean="book2"/>
+        <ref bean="book3"/>
+        <ref bean="book3"/>
+      </set>
+    </property>
+  </bean>
+
+</beans>
