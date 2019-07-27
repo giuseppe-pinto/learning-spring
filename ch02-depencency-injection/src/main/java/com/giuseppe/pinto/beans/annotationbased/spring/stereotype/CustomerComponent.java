@@ -1,10 +1,12 @@
 package com.giuseppe.pinto.beans.annotationbased.spring.stereotype;
 
 import com.giuseppe.pinto.beans.domain.Address;
+import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
 @Component
 //If you don't want to use as id the string "CostumerComponent" add this property to component annotation (value = "componentId")
+//@Scope(scopeName = "prototype") if you add this annotations you can create a different instance of component every time you pull from context with the getBean
 public class CustomerComponent
 {
 
