@@ -13,7 +13,9 @@ public class CustomerAutowired
   //@Qualifier("customerAddressAutowired") Non serve il qualifier
   // perche il TestCustomerAutowired ha una unica configuration da dare al contesto.
   // Quindi non ci saranno conflitti. Anche se l'ide da rosso non è un problema.
-  // Se gli dai un xml mirato ovviamente.
+  // Se gli dai un xml mirato ovviamente con un unico bean di tipo Adress.
+  // Nel caso in cui nel xml di config ci sono piu beans di tipo adress,
+  // allora il qualifier è mandatorio (dandogli l id del bean della config).
   @Autowired// (required = false) puoi settare questa proprieta a false se il field
   // puo esser opzionale (Spring setterà l oggetto a null).
   // Senza il req a false, se non si mette il bean nella config, spring si incazza.
