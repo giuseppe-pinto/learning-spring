@@ -15,7 +15,7 @@ public class CustomerComponent
   public CustomerComponent()
   {
     id = 100;
-    name = "pinco-pallo";
+    name = "customer-component";
     address = new Address();
     address.setCityName("Milano");
     address.setBuildNumber(1212);
