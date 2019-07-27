@@ -1,17 +1,18 @@
-package com.giuseppe.pinto.beans.xmlbasedwithnamespace;
+package com.giuseppe.pinto.beans.xmlbased.withnamespace;
 
-import com.giuseppe.pinto.beans.domain.Car;
+import com.giuseppe.pinto.beans.domain.Customer;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-public class TestCarWithNameSpace
+public class TestCustomerWithReferenceObjAndNameSpace
 {
   private static final String CONFIG_LOCATION = "beans-config-namespace.xml";
 
   public static void main(String[] args)
   {
     ApplicationContext context = new ClassPathXmlApplicationContext(CONFIG_LOCATION);
-    Car car = (Car) context.getBean("carId");
-    System.out.println(car.show());
+    String id = "customerWithNamespaceId";
+    Customer customer = (Customer) context.getBean(id);
+    System.out.println(customer.toString());
   }
 }
