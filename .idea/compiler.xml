@@ -7,9 +7,10 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="ch02-bean-life-cycle" />
-        <module name="ch02-depencency-injection" />
         <module name="ch02-instance-creation" />
         <module name="ch01-container-initializer" />
+        <module name="ch02-springEL" />
+        <module name="ch02-depencency-injection" />
         <module name="ch02-inheritance" />
         <module name="ch02-DI-collection" />
       </profile>

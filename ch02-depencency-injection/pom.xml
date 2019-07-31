@@ -16,7 +16,6 @@
       <groupId>org.springframework</groupId>
       <artifactId>spring-aop</artifactId>
       <version>${org.springframework.version}</version>
-      <scope></scope>
     </dependency>
   </dependencies>
 
