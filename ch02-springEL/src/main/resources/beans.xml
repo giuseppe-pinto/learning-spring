@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+  <bean id="customerId"
+        class="com.giuseppe.pinto.beans.domain.Customer">
+
+    <property name="customerId" value="#{2}" />
+    <property name="customerName" value="Pippo" />
+    <property name="prodName" value="#{'Samsung Fridge'}" />
+    <property name="prodPrice" value="#{27670.50}" />
+    <property name="secondHanded" value="#{false}" />
+
+  </bean>
+
+  <bean id="customerAddressId"
+        class="com.giuseppe.pinto.beans.domain.Address">
+    <property name="buildNo" value="2"/>
+    <property name="cityName" value="Pune"/>
+    <property name="pinCode" value="123"/>
+  </bean>
+
+  <bean id="customerReferenceId" class="com.giuseppe.pinto.beans.domain.CustomerReference">
+    <property name="customerName" value="Bina"/>
+    <property name="customerId" value="#{2}"/>
+    <property name="customerAddress" value="#{customerAddressId}"/>
+  </bean>
+
+  <bean id="customerCalculationId"
+        class="com.giuseppe.pinto.beans.domain.Customer">
+    <property name="customerName" value="Bina"/>
+    <property name="customerId" value="#{2}"/>
+    <property name="prodName" value="#{'Samsung Fridge'}"/>
+    <property name="prodPrice" value="#{27670.50*12.5}"/>
+    <property name="secondHanded" value="#{customerCalculationId.prodPrice > 25000}"/>
+  </bean>
+
+</beans>
