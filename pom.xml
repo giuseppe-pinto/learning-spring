@@ -16,6 +16,8 @@
     <module>ch02-inheritance</module>
     <module>ch02-DI-collection</module>
     <module>ch02-springEL</module>
+    <module>ch03-data-source-configuration</module>
+    <module>ch03-jdbc-template</module>
   </modules>
 
 
